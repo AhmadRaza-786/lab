@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="debugger">false</raw>
+    <raw name="mms_cfg">false</raw>
+    <raw name="ss_cfg">false</raw>
+    <raw name="ss_sgn">false</raw>
+</resources>

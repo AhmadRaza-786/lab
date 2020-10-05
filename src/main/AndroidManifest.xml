@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="5000007" android:versionName="5.0.7" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="code.namanbir.lab.app" android:platformBuildVersionCode="21" android:platformBuildVersionName="5.0.1-1624448">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="28"/>
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:hardwareAccelerated="false">
+        <activity android:theme="@style/Theme.NoShadow" android:label="@string/app_name" android:name="code.namanbir.lab.app.AppEntry" android:launchMode="singleTask" android:screenOrientation="user" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="namespaceVersion" android:value="23"/>
+            <meta-data android:name="aspectRatio" android:value="landscape"/>
+            <meta-data android:name="autoOrients" android:value="false"/>
+            <meta-data android:name="fullScreen" android:value="true"/>
+            <meta-data android:name="uniqueappversionid" android:value="565b4f82-96c0-4750-944e-4892a6ddf374"/>
+            <meta-data android:name="initialcontent" android:value="Lab.swf"/>
+            <meta-data android:name="containsVideo" android:value="false"/>
+            <meta-data android:name="webContentsDebuggingEnabled" android:value="false"/>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.distriqt.extension.inappbilling.activities.PurchaseActivity"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.distriqt.extension.inappbilling.activities.ProductViewActivity"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+</manifest>
